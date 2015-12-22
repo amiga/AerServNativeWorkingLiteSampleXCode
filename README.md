@@ -1,2 +1,2 @@
 # AerServNativeWorkingLiteSampleXCode
-AerServ sample made using xcode
+AerServ sample made using xcode. I made this to demonstrate that a working native project works fine, but once I convert into a codename one Lib then adverts time out. Even though the code is identical. Only difference I can see is that the work in this one is done in viewDidLoad where as on my it has to be done in my method onCreate(). Maybe this makes alll the difference but you can't inject a method into codename ones build hints for viewDidLoad if it uses variables outside of that method it seems. So I can't work out why this native one works but the codename one lib version doesnt. 
